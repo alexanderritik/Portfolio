@@ -1,0 +1,180 @@
+
+.animated-text{
+    color: #0E2431;
+    background: white;
+    padding: 0 20px;
+    height: 50px;
+    overflow: hidden;
+    width: 350px;
+  }
+  
+
+.line{
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 0%;
+    font-size: 40px;
+    line-height: 60px;
+    
+  }
+  
+  .line:first-child{
+    animation: anim 14s  infinite;
+  }
+  
+  @keyframes anim {
+    0%{
+      margin-top: 0;
+    }
+    10%{
+        margin-top: -60px;
+      }
+    20%{
+        margin-top: -120px;
+      }
+    30%{
+      margin-top: -180px;
+    }
+    40%{
+      margin-top: -240px;
+    }
+    50%{
+        margin-top: -300px;
+      }
+    60%{
+        margin-top: -240px;
+    }
+    70%{
+      margin-top: -180px;
+    }
+    80%{
+      margin-top: -120px;
+    }
+    90%{
+      margin-top: -60px;
+    }
+    100%{
+      margin-top: 0;
+    }
+  }
+  
+
+
+  .developer {
+      font-size: 30px;
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  .programmer {
+    font-size: 30px;
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #4070F4;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .box:hover .overlay {
+    width: 100%;
+    left: 0;
+  }
+
+
+  .overlay1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #4070F4;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .box1:hover .overlay1 {
+    width: 100%;
+  }
+  
+  
+  .text {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+ 
+  
+
+
+.close-button {
+    height: 25px;
+    width: 25px;
+    float: right;
+    opacity: .3;
+    transition: opacity .5s;
+  }
+  
+  .view-button {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    margin-top: 30px;
+    float: right;
+    opacity: .7;
+    transition: opacity .3s;
+    color: #fff;
+    letter-spacing: 2px;
+    
+  }
+  
+  .view-button:hover {
+    opacity: 1;
+  }
+  
+  .close-button:hover {
+    opacity: .7;
+  }
+  
+  .closed-box {
+    margin: 5px;
+    width: 200px;
+    height: 150px;
+    float: left;
+  }
+  
+  .open-box {
+      font-size: 20px;
+  position: relative;
+    float: left;
+    background-color: #4070F4;
+    padding: 35px;
+    margin: 15px;
+  color: whitesmoke;
+  }
+  
+
+  
+    
