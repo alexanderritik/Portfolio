@@ -1,3 +1,3 @@
 # Portfolio
 It is my portfolio website
-website - https://github.com/alexanderritik
+website - https://alexanderritik.github.io/Portfolio/
